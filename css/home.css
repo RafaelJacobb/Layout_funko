@@ -1,0 +1,185 @@
+/* header */
+
+.header{
+    background-image: url("/images/spidermanheader.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 110vh;
+    position: relative;
+}
+
+.navbar{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+
+.nav-itens{
+display: flex;
+gap: 10rem;
+padding-left: 2.5rem;
+}
+
+.nav-itens a{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.logo-home{
+    width: 10rem;
+}
+
+.nav-itens li a:hover{
+    color: rgb(194, 194, 194);
+    text-decoration: underline solid #fe7467 2px
+}
+
+.title-header{
+    width: auto;
+    height: 12rem;
+    position: absolute;
+    left: 4rem;
+    bottom: 8rem;
+}
+
+@media screen and (max-width: 768px){
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .nav-itens{
+        gap: 1.5rem;
+        padding-left: 0%;
+    }
+
+    .title-header{
+        height: 10rem;
+        left: 2.5rem;
+        bottom: 10rem;
+    }
+
+    .header{
+        background-image: url(/images/spidermanheader_mobile.jpg);
+    }
+}
+
+/* main */
+/* quem somos */
+
+.section-quem-somos{
+    background-image: url("/images/thor_header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.section-quem-somos h2{
+    padding: 10px 0;
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.section-quem-somos p{
+    color: #fff;
+    font-size: 1rem;
+    width: 50%;
+    padding: 0 100px;
+}
+
+.quem-somos-text{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    padding-bottom: 4rem;
+}
+
+@media screen and (max-width: 768px) {
+    .section-quem-somos p{
+        width: 100%;
+        font-size: 1rem;
+        padding: 0 1rem;
+    }
+
+    .section-quem-somos{
+        background: linear-gradient(#fe7467, #fc3836);
+    }
+}
+
+/* catalogo */
+
+.section-catalogo h2{
+    text-align: center;
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.catalogo-text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    color: #000;
+    font-size: 15px
+}
+
+.section-catalogo img{
+    width: 45%;
+}
+
+.button-catalogo {
+    background: linear-gradient(#fe7467, #fc3836);
+    border: none;
+    border-radius: 10px;
+    padding: 8px;
+    margin-top: 10px;
+    width: 6.5rem;
+}
+
+.button-catalogo:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button-catalogo a{
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}   
+
+.catalogo-layout{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px){
+    .catalogo-layout{
+        flex-direction: column-reverse;
+    }
+
+    .catalogo-text{
+        width: 100%;
+        padding: 0.5rem 2rem;
+    }
+
+    .catalogo-text button{
+        align-self: center;
+        margin: 1rem 0;
+    }
+
+    .section-catalogo img{
+        width: 90%;
+    }
+}

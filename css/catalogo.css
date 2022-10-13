@@ -1,0 +1,161 @@
+/*header*/
+
+.header-catalogo {
+    background-image: url("/images/captainmarvelheader.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 110vh;
+}
+
+.title-header-catalogo {
+    width: auto;
+    height: 12rem;
+    position: absolute;
+    left: 8rem;
+    bottom: 1px;
+    top: 20rem;
+}
+
+.navbar-catalogo {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+
+.nav-itens-catalogo {
+    display: flex;
+    gap: 10rem;
+    padding-left: 2.5rem;
+}
+
+.nav-itens-catalogo a {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-itens-catalogo li a:hover {
+    color: rgb(194, 194, 194);
+    text-decoration: underline solid #fe7467 2px
+}
+
+.logo-catalogo {
+    width: 10rem;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-catalogo {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .nav-itens-catalogo {
+        gap: 1.5rem;
+        padding-left: 0%;
+    }
+
+    .title-header-catalogo {
+        width: 0px;
+    }
+
+    .header-catalogo {
+        background-image: url(/images/captainmarvelheader_Mobile.jpg);
+    }
+}
+
+/*section*/
+
+.section-catalogo h2 {
+    text-align: center;
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.section-catalogo img {
+    width: 10rem;
+}
+
+.section-catalogo button {
+    background: linear-gradient(#fe7467, #fc3836);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.section-catalogo button:hover {
+    background-color: #fc3836;
+    ;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.section-itens {
+    display: flex;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 10px;
+}
+
+.section-itens-2 {
+    display: flex;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 10px;
+}
+
+.section-catalogo p {
+    font-size: 20px;
+}
+
+.preço {
+    font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .section-catalogo {
+        justify-content: center;
+    }
+
+    .section-itens {
+        display: inline-block;
+        padding: 1rem 0;
+    }
+
+    .section-itens p{
+        font-size: 1.5rem;
+        width: 70%;
+        text-align: center;
+    }
+
+    .section-itens-2 {
+        display: inline-block;
+        padding: 1rem 0;
+    }
+
+    .section-itens-2 p{
+        font-size: 1.5rem;
+        width: 70%;
+        text-align: center;
+    }
+
+    .section-itens li {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 1rem 0;
+    }
+
+    .section-itens-2 li {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
