@@ -8,22 +8,22 @@
 }
 
 .logo-contato {
-    width: 10rem;
+    width: 12rem;
 }
 
 .title-header-contato {
     width: auto;
-    height: 12rem;
+    height: 15rem;
     position: absolute;
-    left: 13rem;
-    bottom: 3rem
+    left: 15rem;
+    bottom: 8rem
 }
 
 .navbar-contato {
     padding: 20px;
     display: flex;
     align-items: center;
-    gap: 3rem;
+    gap: 1.5rem;
 }
 
 
@@ -35,7 +35,7 @@
 
 .nav-itens-contato a {
     color: white;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
 }
 
@@ -72,20 +72,23 @@
 
 /*section*/
 
-.section-contato h2 {
+.main-contato{
     text-align: center;
+}
+
+.section-contato h2 {
     color: #000;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
+    font-size: 2.5rem;
     padding-top: 10px;
     padding-bottom: 1rem;
 }
 
 .section-contato p {
-    text-align: center;
-    font-size: 1rem;
+    font-size: 1.5rem;
     width: 100%;
-    margin: 1rem 0;
+    padding: 0 20%;
+    margin: 15px 0;
 }
 
 .form-layout-geral {
@@ -101,14 +104,15 @@
     background-color: rgba(244, 244, 244, 0.73);
     border: 2px solid gray;
     margin: 1rem 0;
-    padding: 3px 15px;
+    padding: 10px 30px;
 }
 
 .section-contato textarea {
     border-radius: 10px;
     background-color: rgba(244, 244, 244, 0.73);
     border: 2px solid gray;
-    margin: 5px;
+    margin: 10px;
+    padding: 30px;
 }
 
 .button-contato{
@@ -122,9 +126,9 @@
     color: #fff;
     border: none;
     border-radius: 8px;
-    padding: 5px 180px;
+    padding: 0.5% 15%;
     margin-top: 1px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     cursor: pointer;
 }
 

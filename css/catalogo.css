@@ -11,16 +11,15 @@
     width: auto;
     height: 12rem;
     position: absolute;
-    left: 8rem;
-    bottom: 1px;
-    top: 20rem;
+    left: 6rem;
+    top: 22rem;
 }
 
 .navbar-catalogo {
     padding: 20px;
     display: flex;
     align-items: center;
-    gap: 3rem;
+    gap: 1.5rem;
 }
 
 
@@ -32,7 +31,7 @@
 
 .nav-itens-catalogo a {
     color: white;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
 }
 
@@ -42,7 +41,7 @@
 }
 
 .logo-catalogo {
-    width: 10rem;
+    width: 12rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -71,13 +70,13 @@
 .section-catalogo h2 {
     text-align: center;
     color: #000;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
     padding-top: 10px;
 }
 
 .section-catalogo img {
-    width: 10rem;
+    width: 12rem;
 }
 
 .section-catalogo button {
@@ -85,37 +84,41 @@
     color: #fff;
     border: none;
     border-radius: 10px;
-    padding: 10px;
-    margin-top: 10px;
+    padding: 10px 15px;
+    margin-top: 20px;
+    font-size: 20px;
 }
 
 .section-catalogo button:hover {
     background-color: #fc3836;
-    ;
     font-weight: bold;
     cursor: pointer;
 }
 
 .section-itens {
+    align-items: center;
     display: flex;
     padding-top: 10px;
-    padding-left: 50px;
+    padding-left: 10%;
     padding-right: 10px;
 }
 
 .section-itens-2 {
     display: flex;
+    padding-bottom: 30px;
     padding-top: 10px;
-    padding-left: 50px;
+    padding-left: 10%;
     padding-right: 10px;
 }
 
 .section-catalogo p {
     font-size: 20px;
+    width: 70%;
 }
 
 .preço {
     font-size: 18px;
+    font-weight: bold;
 }
 
 @media screen and (max-width: 768px) {

@@ -12,24 +12,24 @@
     padding: 20px;
     display: flex;
     align-items: center;
-    gap: 3rem;
+    gap: 1.5rem;
 }
 
 
 .nav-itens{
-display: flex;
-gap: 10rem;
-padding-left: 2.5rem;
+    display: flex;
+    gap: 10rem;
+    padding-left: 2.5rem;
 }
 
 .nav-itens a{
     color: white;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
 }
 
 .logo-home{
-    width: 10rem;
+    width: 12rem;
 }
 
 .nav-itens li a:hover{
@@ -39,10 +39,10 @@ padding-left: 2.5rem;
 
 .title-header{
     width: auto;
-    height: 12rem;
+    height: 18rem;
     position: absolute;
-    left: 4rem;
-    bottom: 8rem;
+    left: 8rem;
+    bottom: 15rem;
 }
 
 @media screen and (max-width: 768px){
@@ -83,14 +83,14 @@ padding-left: 2.5rem;
 .section-quem-somos h2{
     padding: 10px 0;
     color: #fff;
-    font-size: 2rem;
+    font-size: 4rem;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
 
 .section-quem-somos p{
     color: #fff;
-    font-size: 1rem;
+    font-size: 1.7rem;
     width: 50%;
     padding: 0 100px;
 }
@@ -118,11 +118,10 @@ padding-left: 2.5rem;
 /* catalogo */
 
 .section-catalogo h2{
-    text-align: center;
     color: #000;
+    font-size: 3rem;
+    text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
-    padding-top: 10px;
 }
 
 .catalogo-text{
@@ -130,7 +129,7 @@ padding-left: 2.5rem;
     flex-direction: column;
     width: 50%;
     color: #000;
-    font-size: 15px
+    font-size: 1.5rem;
 }
 
 .section-catalogo img{
@@ -141,9 +140,9 @@ padding-left: 2.5rem;
     background: linear-gradient(#fe7467, #fc3836);
     border: none;
     border-radius: 10px;
-    padding: 8px;
-    margin-top: 10px;
-    width: 6.5rem;
+    padding: 1rem;
+    margin-top: 20px;
+    width: 10rem;
 }
 
 .button-catalogo:hover{
@@ -154,7 +153,7 @@ padding-left: 2.5rem;
 .button-catalogo a{
     color: #fff;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 15px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }   
 
